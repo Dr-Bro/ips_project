@@ -1,0 +1,26 @@
+﻿Сборка начата 09.12.2018 21:59:06.
+     1>Проект "d:\Users\Dr.bro\documents\visual studio 2013\Projects\project_ips\project_ips\project_ips.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt code\fragmentation.cpp
+         fragmentation.cpp
+     1>d:\users\dr.bro\documents\visual studio 2013\projects\project_ips\project_ips\code\fragmentation.cpp(229): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         C:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\users\dr.bro\documents\visual studio 2013\Projects\project_ips\Debug\project_ips.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\users\dr.bro\documents\visual studio 2013\Projects\project_ips\Debug\project_ips.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\users\dr.bro\documents\visual studio 2013\Projects\project_ips\Debug\project_ips.lib" /MACHINE:X86 Debug\box.obj
+         Debug\fragmentation.obj
+         Debug\NUCovering.obj
+     1>NUCovering.obj : error LNK2005: "class std::vector<struct Box,class std::allocator<struct Box> > solution" (?solution@@3V?$vector@UBox@@V?$allocator@UBox@@@std@@@std@@A) уже определен в fragmentation.obj
+     1>NUCovering.obj : error LNK2005: "class std::vector<struct Box,class std::allocator<struct Box> > not_solution" (?not_solution@@3V?$vector@UBox@@V?$allocator@UBox@@@std@@@std@@A) уже определен в fragmentation.obj
+     1>NUCovering.obj : error LNK2005: "class std::vector<struct Box,class std::allocator<struct Box> > boundary" (?boundary@@3V?$vector@UBox@@V?$allocator@UBox@@@std@@@std@@A) уже определен в fragmentation.obj
+     1>NUCovering.obj : error LNK2005: "class std::vector<struct Box,class std::allocator<struct Box> > temporary_boxes" (?temporary_boxes@@3V?$vector@UBox@@V?$allocator@UBox@@@std@@@std@@A) уже определен в fragmentation.obj
+     1>fragmentation.obj : error LNK2001: неразрешенный внешний символ ""double const g_l1_max" (?g_l1_max@@3NB)"
+     1>fragmentation.obj : error LNK2001: неразрешенный внешний символ ""double const g_l2_max" (?g_l2_max@@3NB)"
+     1>fragmentation.obj : error LNK2001: неразрешенный внешний символ ""double const g_l1_min" (?g_l1_min@@3NB)"
+     1>fragmentation.obj : error LNK2001: неразрешенный внешний символ ""double const g_l2_min" (?g_l2_min@@3NB)"
+     1>fragmentation.obj : error LNK2001: неразрешенный внешний символ ""double const g_l0" (?g_l0@@3NB)"
+     1>fragmentation.obj : error LNK2001: неразрешенный внешний символ ""double const g_precision" (?g_precision@@3NB)"
+     1>d:\users\dr.bro\documents\visual studio 2013\Projects\project_ips\Debug\project_ips.exe : fatal error LNK1120: неразрешенных внешних элементов: 6
+     1>Сборка проекта "d:\Users\Dr.bro\documents\visual studio 2013\Projects\project_ips\project_ips\project_ips.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:01.59
